@@ -9,7 +9,7 @@ const SearchForm = ({searchTerm}) => {
   return (
     <Wrapper>
       <Form className="form">
-        <input type="search" name="search" className='form-input' defaultValue={searchTerm} id="search" />
+        <input type="search" name="search" className='form-input' defaultValue={searchTerm} placeholder='vodka' id="search" />
         <button type="submit" className='btn' disabled={submitting}>
           {submitting ? "Searching..." : "Search"}
           </button>  
