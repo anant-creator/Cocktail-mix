@@ -6,7 +6,7 @@ export default function NavbarMain() {
   return (
     <Wrapper>
         <div className="nav-center">
-            <span className="logo">MixMaster</span>
+            <span className="logo">CocktailMix</span>
             <div className="nav-links">
               <NavLink to="/">Home</NavLink>
               <NavLink to="/about">About</NavLink>
